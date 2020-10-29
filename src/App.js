@@ -16,7 +16,7 @@ function App() {
   async function handleAddRepository() {
     const response = await api.post('repositories', {
       title: `Novo Repo, criado em: ${Date.now()}`,
-      owner: 'Joao Gelio',
+      url: 'https://app.rocketseat.com.br/journey-game/gostack-11',
       techs: ['react', 'javascript']
     });
 
